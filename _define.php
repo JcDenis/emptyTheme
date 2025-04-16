@@ -19,7 +19,8 @@ $this->registerModule(
     [
         //'requires'          => [['core', '2.28']],
         //'standalone_config' => true,
-        'type'              => 'theme',
-        'tplset'            => 'dotty',
+        'type'    => 'theme',
+        'tplset'  => 'dotty',
+        'support' => 'https://github.com/JcDenis/emptyTheme/issues',
     ]
 );
